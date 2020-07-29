@@ -1,0 +1,20 @@
+// Mixins Partial===========================================
+
+
+// Global & Typography Mixin============
+@mixin type {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    line-height: 1.45em;
+    color: #777;
+    text-decoration: none;
+}
+
+//======Image Mixin======================
+
+@mixin img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; 
+}
