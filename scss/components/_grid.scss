@@ -71,7 +71,7 @@
   }
   
  
-@media (min-width: 768px) {
+@media (min-width: $tb-breakpoint) {
 
   .container {
     max-width: 1400px;
